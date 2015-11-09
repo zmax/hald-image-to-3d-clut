@@ -38,7 +38,7 @@ function haldToCube(hald, output, creator, copyright) {
                     r = pixels.data[index++]/255, g = pixels.data[index++]/255, b = pixels.data[index++]/255, a = pixels.data[index++]/255;
                     // console.log(a);
                     // if transparent
-                    if (a < 255) {
+                    if (a < 1) {
                         r = ((1 - a) * r) + (a * r);
                         g = ((1 - a) * g) + (a * g);
                         b = ((1 - a) * b) + (a * b);
