@@ -1,13 +1,13 @@
 {
   "name": "hald-image-to-3d-clut",
   "version": "0.0.1",
-  "description": "",
+  "description": "Hald Image to 3D CLUT (.cube)",
   "main": "hald-to-cube.js",
   "dependencies": {
     "get-pixels": "^3.2.3",
     "commander": "^2.9.0"
   },
-  "devDependencies": {    
+  "devDependencies": {
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
